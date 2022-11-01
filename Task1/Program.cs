@@ -8,7 +8,7 @@ if (num.Length == 5)
 }
 else 
 {
-    Console.WriteLine($"Enter correct number");
+    Console.WriteLine("Enter correct number");
 }
 
 
@@ -16,7 +16,7 @@ else
 
 void checkingNumber(string num)
 {
-     if (num[0] == num[4] || num[1] == num[3])
+     if (num[0] == num[4] && num[1] == num[3])
      {
          Console.WriteLine($"Your number: {num} - palindrome.");
      }
