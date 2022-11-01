@@ -16,12 +16,12 @@ else
 
 void checkingNumber(string num)
 {
-    if (num[0] == num[4] || num[1] == num[3])
-    {
-        Console.WriteLine($"Your number: {num} - palindrome.");
-    }
-    else
-    {
+     if (num[0] == num[4] || num[1] == num[3])
+     {
+         Console.WriteLine($"Your number: {num} - palindrome.");
+     }
+     else
+     {
         Console.WriteLine($"Your number: {num} - not palindrome.");
-    }
-}
+     }
+ }
