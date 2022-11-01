@@ -4,7 +4,7 @@ Console.WriteLine("Random value = " + randomValue);
 
 for (int i = 1; i <= randomValue; i++)
 {
-    Console.Write(i * i * i);
+    Console.Write(Math.Pow(i, 3));
     if (i < randomValue)
     {
         Console.Write(", ");
